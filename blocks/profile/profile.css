@@ -1,0 +1,21 @@
+.profile {
+    outline: 1px dotted white;
+    margin: 0;
+    
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .profile {
+        margin: 0 100px 45px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile {
+        flex-direction: column;
+        margin: 0 19px 36px;
+        max-width: 282px;
+    }
+}

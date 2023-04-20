@@ -1,0 +1,10 @@
+.elements {
+    margin: 0 200px 66px;
+    width: 100%;
+    max-width: calc(100%/1.6);
+    color: #000000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 17px;
+    row-gap: 20px;
+}
