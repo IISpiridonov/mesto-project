@@ -1,0 +1,4 @@
+.profile__edit-button {
+    margin: 0;
+    grid-area: button;
+}
