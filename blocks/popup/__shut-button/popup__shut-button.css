@@ -1,0 +1,21 @@
+.popup__shut-button {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../images/shut_icon.svg);
+    position: absolute;
+    top: -40px;
+    right: -40px;  
+    background-color: transparent;
+    background-size: 32px 32px;  
+}
+
+@media screen and (max-width: 600px) {
+    .popup__shut-button {
+        width: 20px;
+        height: 20px;
+        top: -36px;
+        right: 0px;
+        background-size: 20px 20px;
+    }
+}

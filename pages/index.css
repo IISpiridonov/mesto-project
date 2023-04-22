@@ -13,28 +13,28 @@
 @import url(../blocks/profile/__info/profile__info.css);
 @import url(../blocks/profile/__title/profile__title.css);
 @import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+@import url(../blocks/profile/__edit-button/profile__edit-button.css);
 
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/element/element.css);
 @import url(../blocks/element/__caption/element__caption.css);
 @import url(../blocks/element/__picture/element__picture.css);
 @import url(../blocks/element/__title/element__title.css);
+@import url(../blocks/element/__like-button/element__like-button.css);
+@import url(../blocks/element/__like-button/_active/element__like-button_active.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__sign/footer__sign.css);
 
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/__add-button/profile__add-button.css);
-@import url(../blocks/button/__edit-button/profile__edit-button.css);
-@import url(../blocks/button/__like-button/element__like-button.css);
-@import url(../blocks/button/__like-button/_active/element__like-button_active.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__container/popup__container.css);
-@import url(../blocks/popup/__shut/popup__shut-button.css);
+@import url(../blocks/popup/__shut-button/popup__shut-button.css);
 
 @import url(../blocks/form/form.css);
-@import url(../blocks/form/__title/form__title.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__save-button/form__save-button.css);

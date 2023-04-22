@@ -1,11 +1,15 @@
 .header__image {
     width: 142px;
+    height: 33px;
     margin: 0 0 41px;
+    object-fit: cover;
+    display: block;
 }
 
 @media screen and (max-width: 320px) {
     .header__image {
         width: 103.74px;
+        height: 24.4px;
         margin: 0 auto 31.6px 27px;
     }
 }

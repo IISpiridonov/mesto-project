@@ -1,6 +1,5 @@
 .footer {
-    margin: 0 200px 60px;
-    color: #545454; 
+    margin: 0 200px 60px;     
     max-width: calc(100%*0.6875);    
     width: 100%;       
 }

@@ -1,11 +1,11 @@
 .button {
     margin: 0;
-    border: none;
-    object-fit: cover;
+    border: none;    
     background-position: center;
     background-repeat: no-repeat;
-    background: none;
     cursor: pointer;
+    background-color: transparent;
+    transition: all .4s ease-in-out;
 }
 
 .button:hover {
