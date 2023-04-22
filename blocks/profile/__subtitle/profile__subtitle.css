@@ -4,5 +4,13 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    grid-area: subtitle;
+    grid-area: subtitle;    
+}
+
+@media screen and (max-width: 880px) {
+    .profile__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
 }

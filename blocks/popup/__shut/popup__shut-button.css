@@ -1,0 +1,9 @@
+.popup__shut-button {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../images/shut_icon.svg);
+    position: absolute;
+    top: -40px;
+    right: -40px;    
+}

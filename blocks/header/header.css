@@ -1,21 +1,15 @@
 .header {
-    max-width: calc(100% - (100%/3.2)); 
+    max-width: calc(100%*0.6875);
     width: 100%;    
-    margin: 45px 200px 40px;
+    margin: 45px auto 40px;
     border-bottom: 1px solid #545454;
-    display: flex;
-    outline: 1px dotted white;
+    display: flex;        
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        margin: 45px 100px 40px;
-    }
-}
 
 @media screen and (max-width: 320px) {
     .header {
         margin: 28px 0 42px;
         max-width: 320px;
     }
-}
+} 

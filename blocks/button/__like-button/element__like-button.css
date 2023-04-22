@@ -4,3 +4,9 @@
     height: 19px;
     background-image: url(../../../images/element__like-button.svg);
 }
+
+.element__like-button:hover {
+    opacity: 0.5;
+}
+ 
+
