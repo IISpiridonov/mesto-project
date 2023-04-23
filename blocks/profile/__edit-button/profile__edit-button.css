@@ -1,5 +1,4 @@
 .profile__edit-button {
-    background-image: url(../../../images/profile__edit-button.svg);
     margin: 0;
     padding: 0;
     grid-area: button;
@@ -7,12 +6,18 @@
     height: 24px;
     align-self: center;
     border-radius: 0;    
-    background-size: 24px 24px;
+    background-size: 10px 10px;
+    background: transparent url("../../../images/profile__edit-button.svg");
+    background-position: center;
+    background-repeat: no-repeat;    
+    border: 1px solid #FFFFFF;    
+    cursor: pointer;
+    transition: all .4s ease-in-out;
 }
 
 @media screen and (max-width: 880px) {
     .profile__edit-button{
-        background-size: 20px 20px;
+        background-size: 9px 9px;
         width: 20px;
         height: 20px;
     }
@@ -24,6 +29,6 @@
     .profile__edit-button {
         width: 18px;
         height: 18px;
-        background-size: contain;
+        background-size: 7.5px 7.5px;
     }
 } 

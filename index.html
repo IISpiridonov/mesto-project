@@ -72,13 +72,13 @@
         <p lang="en" class="footer__sign">&copy; 2023 Mesto Russia</p>       
     </footer> 
     <!--ВСПЛЫВАЮЩЕЕ ОКНО-->
-    <div class="popup popup_opened">        
+    <div class="popup">        
         <div class="popup__container">
             <button type="button" aria-label="Закрыть окно" class="button popup__shut-button"></button>
             <h2 class="popup__title">Редактировать профиль</h2>
-            <form class="form" name="EditProfileForm" method="post">                
-                <input class="form__input form__input_user_name" type="text" name="UserName" placeholder="Как тебя зовут" value="Жак-Ив Кусто">
-                <input class="form__input form__input_user_describe" type="text" name="UserDescribe" placeholder="Информация о тебе" value="Исследователь океана">
+            <form class="form" name="editProfileForm" method="post">                
+                <input class="form__input form__input_user_name" type="text" name="userName" placeholder="Как тебя зовут" value="Жак-Ив Кусто">
+                <input class="form__input form__input_user_describe" type="text" name="userDescribe" placeholder="Информация о тебе" value="Исследователь океана">
                 <button class="button form__save-button" type="submit">Сохранить</button>               
             </form>
         </div>
