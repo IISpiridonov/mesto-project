@@ -16,6 +16,36 @@ function popDown() {
 
 popupShutButton.addEventListener('click', popDown);
 
+//изменение данных профиля
+const formElement = document.querySelector('.form');
+const nameInput = document.querySelector('.form__input_user_name');
+const jobInput = document.querySelector('.form__input_user_describe');
+
+function formSubmitHandler (evt) {
+    evt.preventDefault(); 
+    
+    nameInput.getAttribute('value');
+    jobInput.getAttribute('value');
+
+    const profileName = document.querySelector('.profile__title');
+    const profileJob = document.querySelector('.profile__subtitle');
+    profileName.textContent = nameInput.value;
+    profileJob.textContent = jobInput.value;    
+    
+};    
+
+formElement.addEventListener('submit', formSubmitHandler);
+formElement.addEventListener('submit', popDown);
+
+
+
+
+
+
+
+
+
+
 //добавим карточку
 name="editProfileForm"
 name="userName"
